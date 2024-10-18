@@ -1,0 +1,20 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Load the dataset
+data = pd.read_csv('../data/rice_data.csv')
+
+# Inspect the data
+print(data.head())
+
+# Visualize the distribution of rice varieties
+sns.countplot(x='variety', data=data)
+plt.title('Distribution of Rice Varieties')
+plt.xlabel('Variety')
+plt.ylabel('Count')
+plt.show()
+
+# Visualize relationships
+sns.pairplot(data, hue='variety')
+plt.show()
