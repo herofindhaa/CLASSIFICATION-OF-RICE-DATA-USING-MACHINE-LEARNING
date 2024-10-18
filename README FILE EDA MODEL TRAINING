@@ -1,0 +1,13 @@
+# Classification of Rice Varieties Using Machine Learning
+
+## Overview
+This project aims to classify different varieties of rice using machine learning techniques based on physical attributes.
+
+## Dataset
+The dataset contains features such as length, width, area, and the corresponding rice variety.
+
+## Getting Started
+1. Clone the repository.
+2. Set up a virtual environment and install the required libraries:
+   ```bash
+   pip install -r requirements.txt
