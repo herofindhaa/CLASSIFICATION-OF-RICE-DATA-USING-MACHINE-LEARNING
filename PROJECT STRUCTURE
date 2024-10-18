@@ -1,0 +1,17 @@
+Rice-Classification/
+│
+├── data/
+│   ├── rice_data.csv             # Sample dataset
+│
+├── notebooks/
+│   ├── exploratory_analysis.ipynb  # Jupyter notebook for EDA
+│   ├── model_training.ipynb        # Jupyter notebook for model training
+│
+├── src/
+│   ├── data_preprocessing.py       # Data preprocessing script
+│   ├── model.py                    # Model definition and training
+│   ├── utils.py                    # Utility functions
+│
+├── requirements.txt                 # Required libraries
+├── README.md                        # Project overview
+└── LICENSE                          # License file
